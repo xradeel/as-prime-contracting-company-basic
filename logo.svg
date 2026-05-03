@@ -1,0 +1,66 @@
+<!-- AS Prime Contracting Company - Professional Construction Logo -->
+<svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg" width="300" height="150">
+  <defs>
+    <!-- Gold gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Orange-red for construction -->
+    <linearGradient id="constructionGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E63946;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow filter -->
+    <filter id="dropShadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Modern construction icon (buildings + crane) -->
+  <g filter="url(#dropShadow)">
+    <!-- Left building block -->
+    <rect x="10" y="35" width="20" height="45" fill="url(#goldGrad)" rx="2"/>
+    <rect x="12" y="38" width="16" height="6" fill="#333333" opacity="0.3"/>
+    <rect x="12" y="48" width="16" height="6" fill="#333333" opacity="0.3"/>
+    <rect x="12" y="58" width="16" height="6" fill="#333333" opacity="0.3"/>
+    
+    <!-- Middle tall building -->
+    <path d="M 40 15 L 55 15 L 55 80 L 40 80 Z" fill="url(#constructionGrad)" stroke="#333333" stroke-width="1"/>
+    <rect x="42" y="20" width="11" height="8" fill="rgba(255,255,255,0.2)"/>
+    <rect x="42" y="32" width="11" height="8" fill="rgba(255,255,255,0.2)"/>
+    <rect x="42" y="44" width="11" height="8" fill="rgba(255,255,255,0.2)"/>
+    <rect x="42" y="56" width="11" height="8" fill="rgba(255,255,255,0.2)"/>
+    <rect x="42" y="68" width="11" height="8" fill="rgba(255,255,255,0.2)"/>
+    
+    <!-- Right building block -->
+    <rect x="65" y="45" width="22" height="35" fill="url(#goldGrad)" rx="2"/>
+    <rect x="68" y="50" width="16" height="6" fill="#333333" opacity="0.3"/>
+    <rect x="68" y="62" width="16" height="6" fill="#333333" opacity="0.3"/>
+    
+    <!-- Crane tower -->
+    <rect x="92" y="25" width="4" height="55" fill="#333333"/>
+    
+    <!-- Crane arm -->
+    <line x1="94" y1="30" x2="115" y2="20" stroke="#B8860B" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Crane cable -->
+    <line x1="115" y1="20" x2="110" y2="55" stroke="#999999" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Hook -->
+    <circle cx="110" cy="55" r="4" fill="#B8860B"/>
+  </g>
+  
+  <!-- Brand text -->
+  <text x="138" y="50" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#333333">
+    AS Prime
+  </text>
+  <text x="138" y="68" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#B8860B" letter-spacing="1">
+    Contracting Company
+  </text>
+  
+  <!-- Decorative accent line -->
+  <line x1="138" y1="76" x2="280" y2="76" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6"/>
+</svg>
