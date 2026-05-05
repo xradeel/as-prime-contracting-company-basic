@@ -6,7 +6,7 @@ A responsive, modern 5-page website for AS Prime Contracting Company, a premier 
 
 ```
 AS Prime Contracting Company website/
-├── assets/images/logo.jpg  # Company logo image
+├── assets/images/asprimecontracting-logo.jpg  # Company logo image
 ├── index.html          # Home page with hero section and featured projects
 ├── about.html          # About Us page featuring leadership
 ├── services.html       # Services page (Development, Urban Planning, Construction)
