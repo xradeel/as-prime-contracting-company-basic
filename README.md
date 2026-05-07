@@ -125,7 +125,7 @@ Edit the CSS custom properties in `style.css`:
 Update the following in all HTML files:
 - Address: Al-Thaghr District, Jeddah, Saudi Arabia
 - Phone: +966 509987947
-- Email: shakilnaftakhdarcompany@gmail.com
+- Email: asprimecontractingcompany@gmail.com
 
 ### Company Name
 Search and replace "AS Prime Contracting" with your company name
